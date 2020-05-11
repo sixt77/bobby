@@ -1,0 +1,32 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html, body {height: 100%;}
+body {background:#eee;}
+h1 {font: 52px/58px Georgia, serif; color: #555; text-align: center;}
+h2 {font: 32px/36px Georgia, serif; color: #333; text-align: center; border-bottom: solid #333 1px; margin:0 20px;}
+
+/* ======================= */
+/* === FLEX BASICS === */
+/* ======================= */
+
+section {
+	display: flex; 
+	/*	the container's display is set to flex */
+	/*	its children are now flex items */
+	min-height:50%;
+	height:auto;
+	background: #333;
+	margin:20px;
+}
+
+section div {
+  background: crimson;
+  margin: 20px;
+  padding:40px;
+  font-size: 40px;
+  color: #eee;
+  font-weight: bold;
+}
+
+#con4 {
+	flex-wrap: wrap;
+}
