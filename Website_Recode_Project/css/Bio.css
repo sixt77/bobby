@@ -48,7 +48,9 @@ a {
     text-decoration: none;
 }
 
-
+.video-frame{
+    width: 100%;
+}
 
 .gridText{
     font-size: 14px;
